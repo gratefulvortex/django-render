@@ -1,0 +1,58 @@
+.form-label {
+    font-size: 1.5rem;
+    margin-left: 2rem;
+    font-weight: bold;
+    text-align: right;
+    flex: 1;
+    margin-right: 2rem;
+}
+
+.input-group-text {
+    font-size: 1.5rem;
+}
+
+.btn-primary {
+    font-size: 1.2rem;
+    padding: 0.5rem 1.5rem;
+    
+}
+
+.form-control {
+    font-size: 1rem;
+    padding: 0.75rem 1rem;
+}
+
+.col-md-4 {
+    margin-bottom: 0.5rem;
+    margin-top: 0.5rem;
+    display: flex;
+    align-items: center;
+}
+.navbar-brand.center-navbar {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 1.5rem; /* Adjust as needed */
+}
+
+.col-12{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.g-3{
+   display: flex;
+   flex-direction: column;
+   display: grid;
+   grid-template-columns: auto 1fr;
+   gap: 1rem 2rem;
+   align-items: center;
+   background-color: rgb(99, 97, 97);
+   height: 39rem;
+}
+.input-group, .form-control {
+   flex: 2;
+}
+#fullname{
+   margin-top: 1.5rem;
+}
