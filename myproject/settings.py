@@ -7,7 +7,11 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 # Quick-start development settings - unsuitable for production
 SECRET_KEY = 'django-insecure-zhww$+at3$o^poajoak0x%0@+m*vz&*1c=sjw9b&!kfijxmy+='
 DEBUG = True
-ALLOWED_HOSTS = ["django-render-5.onrender.com", "127.0.0.1", "localhost"]
+import os
+
+ALLOWED_HOSTS = ['127.0.0.1', 'localhost', 'django-render-5.onrender.com']
+PORT = os.getenv("PORT", "8000")
+
 
 
 # Application definition
