@@ -1,0 +1,16 @@
+{% extends "base.html" %}
+
+{% block content %}
+<div class="container mt-5">
+    <h2 class="text-center">Upload Excel File</h2>
+    <div class="card shadow p-4">
+        <form method="POST" enctype="multipart/form-data">
+            {% csrf_token %}
+            <div class="mb-3">
+                <input type="file" name="excel_file" class="form-control" required>
+            </div>
+            <button type="submit" class="btn btn-primary w-100">Upload</button>
+        </form>
+    </div>
+</div>
+{% endblock %}
